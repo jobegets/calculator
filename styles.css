@@ -23,7 +23,7 @@ button:hover{
     color: #333333;
 }
 
-.nums{
+#nums{
     color: #333333;
     display: flex;
     flex-wrap: wrap;
@@ -55,7 +55,11 @@ button:hover{
     margin: 0 15px 0 15px;
 }
 
-.output{
+#output{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
     margin-top: 20px;
     height: 100px;
     width: 250px;
